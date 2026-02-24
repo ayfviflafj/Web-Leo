@@ -1,0 +1,142 @@
+﻿body {
+    background: #f2e6d8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor {
+    width: 1250px;
+    background: #a26832;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* HEADER */
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: black;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+header img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* NAV */
+
+nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    margin: 20px 0;
+}
+
+nav li {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+nav li a {
+    background: #b7e4c7;
+    color: #1b4332;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 20px 0;
+    width: 80%;
+    text-align: center;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+nav li a:hover {
+    background: white;
+    transform: scale(1.05);
+}
+
+/* SECCIÓN RECETA */
+
+.receta {
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 30px auto;
+    width: 85%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.receta h2 {
+    text-align: center;
+    color: #1b4332;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* CONTENIDO */
+
+.receta-contenido {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.receta-texto {
+    width: 60%;
+}
+
+.receta-texto p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.receta-texto h3 {
+    margin-top: 20px;
+    color: #1b4332;
+}
+
+.receta-texto ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.receta-texto li {
+    font-size: 17px;
+    margin-bottom: 8px;
+}
+
+/* IMAGEN */
+
+.receta-imagen {
+    width: 40%;
+    background: white;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.receta-imagen img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+}
+
